@@ -36,9 +36,9 @@ CREATE TABLE Dept_Manager (
 
 CREATE TABLE Salary (
 	emp_no INT NOT NULL,
+	salary DECIMAL,
     from_date DATE,
-	to_date DATE,
-	salary DECIMAL
+	to_date DATE
 );
 
 CREATE TABLE Title (
